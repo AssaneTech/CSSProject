@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio created by me : Assane Diouf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div id="allmypage">
+
+    <!-- Navigation -->
+
+
+    <nav>
+        <ul id="navbarglobal">
+            <li ><a id="navbar" href="#home">Home</a></li> 
+            <li ><a id="navbar" href="#about">About</a></li> 
+            <li ><a id="navbar" href="#work">Work</a></li> 
+            <li ><a id="navbar" href="#resume">Resume</a></li> 
+            <li ><a id="navbar" href="#contact">Contact</a></li> 
+        </ul>
+    </nav>
+    
+    <!-- Section About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <form>
+            <label for="about-text">Introduce yourself :</label><br>
+            <textarea id="about-text" name="about-text" rows="4" required></textarea><br>
+            <input id ="submit" type="submit" value="SUBMIT">
+        </form>
+    </section> <br><br><br>
+    
+    <!-- Section Work -->
+    <section id="work">
+        <h2>My Work</h2>
+        <form>
+            <label for="work-details">Décrivez vos projets :</label><br>
+            <textarea id="work-details" name="work-details" rows="4" required></textarea><br>
+            <input id="submit" type="submit" value="SUBMIT">
+        </form>
+        <video controls width="400">
+            <source src="video.mp4" type="video/mp4">
+            The browser doesn't support this video!
+        </video>
+    </section><br><br><br>
+    
+    <!-- Section Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <form>
+            <label for="resume-details">Add your experiences :</label><br>
+            <textarea id="resume-details" name="resume-details" rows="4" required></textarea><br>
+            <input id="submit" type="submit" value="SUBMIT">
+        </form>
+    </section><br><br><br>
+    
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+            <input id="submit" type="submit" value="SEND">
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; My html portfolio </p>
+        <p>I have added some css to style my page </p>
+        <p>I think that is a good idea and not a Off-topic</p>
+    </footer>
+    </div>
+</body>
+</html>
