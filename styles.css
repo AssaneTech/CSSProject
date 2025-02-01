@@ -44,7 +44,8 @@
                     border-color:black;
                     font-weight: bolder;
                     border-radius: 20px;
-                    place-items: center
+                    place-items: center;
+                    font-family: 'Roboto';
                 }
             
             #navbar
